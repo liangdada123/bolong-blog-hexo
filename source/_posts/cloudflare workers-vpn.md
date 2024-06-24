@@ -29,3 +29,7 @@ main_color: "#348CFF"
 
 1.注册cloudflare账号并登录 (这个就不多赘述了和平时注册其他网站一样按要求填写即可)(什么你这都不会！？那你不太适合本教程)
 
+**cloudflare**官网 : 🌐**网址**：https://dash.cloudflare.com/
+
+
+
