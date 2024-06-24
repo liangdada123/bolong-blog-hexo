@@ -1,7 +1,7 @@
 ---
 title: [CloudFlare Workers搭建免费vless节点系列一] 利用源项目作者zizifn脚本进行部署，稳定高效，解锁ChatGPT和奈飞流媒体
-date: 2024-06-24 08:41:00
-updated: 2024-06-24 08:41:00
+date: 2024-06-24 20:14:00
+updated: 2024-06-24 20:14:00
 tags: 节点搭建,CloudFlare
 categories: 科学上网
 description: 利用CloudFlare Workers搭建免费vless节点系列一
