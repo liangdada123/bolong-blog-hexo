@@ -2,7 +2,7 @@
 title: 利用Cloudflare Pages搭建telegraph-Image图床
 date: 2024-06-24 08:41:00
 updated: 2024-06-24 08:41:00
-tags: 图床搭建
+tags: [图床搭建]
 categories: 开发笔记
 description: 利用Cloudflare Pages搭建图床
 top_img: https://img.090227.xyz/file/57b81d8fc9d8d534cabef.jpg
