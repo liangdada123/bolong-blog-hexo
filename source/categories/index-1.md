@@ -1,4 +1,4 @@
 ---
-title: categories
-date: 2024-06-23 18:48:28
+title: 科学上网
+categories: 科学上网
 ---
