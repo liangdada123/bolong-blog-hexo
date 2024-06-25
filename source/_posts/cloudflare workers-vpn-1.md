@@ -1,12 +1,12 @@
 ---
 title: 【CloudFlare Workers搭建免费vless节点】 利用作者zizifn脚本进行部署，稳定高效，解锁ChatGPT和奈飞流媒体
 date: 2024-06-24 20:14:00
-updated: 2024-06-24 20:14:00
+updated: 2024-06-25 11:50:00
 tags: [节点搭建, CloudFlare]
 categories: 科学上网
 description: 利用CloudFlare Workers搭建免费vless节点系列一
-top_img: https://lovetoshare.top/images/202406140928.png
-cover: https://lovetoshare.top/images/202406140928.png
+top_img: https://img.bolong.eu.org/file/426b0e0896eecc1710e11.png
+cover: https://img.bolong.eu.org/file/426b0e0896eecc1710e11.png
 main_color: "#348CFF"
 ---
 
@@ -93,14 +93,14 @@ main_color: "#348CFF"
 
 替换完成之后 接下来添加 **proxyIP** 的值 下面随便复制一条 粘贴到 **proxyIP** 的值中(这里的proxyIP是反代 cloudflare 的 CDN 服务器ip 是为了解锁ChatGPT和奈飞流媒体用的)
 
-`146.70.175.98
-146.70.175.99
-146.70.175.100
-146.70.175.101
-146.70.175.102
-146.70.175.103
-146.70.175.104
-146.70.175.116`
+**146.70.175.98**
+**146.70.175.99**
+**146.70.175.100**
+**146.70.175.101**
+**146.70.175.102**
+**146.70.175.103**
+**146.70.175.104**
+**146.70.175.116**
 
 这里我还是以第一条为例
 
@@ -118,3 +118,104 @@ main_color: "#348CFF"
 
 #### 4.获取vless节点并实现科学上网
 
+在代码编辑页面点击复制**访问网址** 并在 浏览器打开**新标签页**粘贴
+
+![00641c5c2d47d51fbe708.png](https://img.bolong.eu.org/file/00641c5c2d47d51fbe708.png)
+
+ 在后面加上之前生成填写到代码 **userID** 中的 **UUID** 值进行访问(例如我复制出来的访问地址是 https://xxx.xxxx.workers.dev 那我就在后边加 **/UUID值**)
+
+![5e4c244a3a0a1169dbb12.png](https://img.bolong.eu.org/file/5e4c244a3a0a1169dbb12.png)
+
+这样我们就能看到 部署到**cloudflare workers**的 **vless** 节点以及节点信息 复制出 **vless节点** 添加到科学上网工具中(这里我已**v2rayN**为例)
+
+![fc2ff2749c7ae36bb733b.png](https://img.bolong.eu.org/file/fc2ff2749c7ae36bb733b.png)
+
+如果没有**v2rayN**可前往这个链接：[https://github.com/2dust/v2rayN/releases](https://github.com/2dust/v2rayN/releases)
+
+不会使用这个软件的可以去网上搜索教程 这里就不多赘述
+
+安装之后打开 **v2rayN** 粘贴刚才复制出的 **vless节点**
+
+![99ad75bd6e24408ed27ff.png](https://img.bolong.eu.org/file/99ad75bd6e24408ed27ff.png)
+
+然后选中这个节点右键 **编辑服务器** 并选取下面的任意一个 **优选域名** 填入到 **地址** 框中 并将 **端口** 改为**80**
+
+**www.visa.com**
+**time.cloudflare.com**
+**shopify.com**
+**time.is**
+**icook.hk**
+**icook.tw**
+**ip.sb**
+**japan.com**
+**malaysia.com**
+**russia.com**
+**singapore.com**
+**skk.moe**
+**www.visa.com**
+**www.visa.com.sg**
+**www.visa.com.hk**
+**www.visa.com.tw**
+**www.visa.co.jp**
+**www.visakorea.com**
+**www.gco.gov.qa**
+**www.gov.se**
+**www.gov.ua**
+**www.digitalocean.com**
+**www.csgo.com**
+**www.shopify.com**
+**www.whoer.net**
+**www.whatismyip.com**
+**www.ipget.net**
+**www.hugedomains.com**
+**www.udacity.com**
+**www.4chan.org**
+**www.okcupid.com**
+**www.glassdoor.com**
+**www.udemy.com**
+**www.baipiao.eu.org**
+**cdn.anycast.eu.org**
+**cdn-all.xn--b6gac.eu.org**
+**cdn-b100.xn--b6gac.eu.org**
+**xn--b6gac.eu.org**
+**edgetunnel.anycast.eu.org**
+**alejandracaiccedo.com**
+**nc.gocada.co**
+**log.bpminecraft.com**
+**www.boba88slot.com**
+**gur.gov.ua**
+**www.zsu.gov.ua**
+**www.iakeys.com**
+**edtunnel-dgp.pages.dev**
+**www.d-555.com**
+**fbi.gov**
+
+这里我还是以第一条为例
+
+![7f176c77b887b53e87145.png](https://img.bolong.eu.org/file/7f176c77b887b53e87145.png)
+
+![c535c853600dc2ebcc1ad.png](https://img.bolong.eu.org/file/c535c853600dc2ebcc1ad.png)
+
+在更改 **传输层安全** 为空 点击 **确定** 按钮保存即可
+
+![f71a2fa884edd65f52d46.png](https://img.bolong.eu.org/file/f71a2fa884edd65f52d46.png)
+
+![0a4640370b3449ef7f7c8.png](https://img.bolong.eu.org/file/0a4640370b3449ef7f7c8.png)
+
+至此我们搭建的 **vless节点** 就能用来科学上网了 只要将这个节点设为 **活动服务器** 然后 **开启系统代理** 就OK了
+
+![fb7477dbee9d9b96c775a.png](https://img.bolong.eu.org/file/fb7477dbee9d9b96c775a.png)
+
+![fa5cebaf2f8e193b6b5ce.png](https://img.bolong.eu.org/file/fa5cebaf2f8e193b6b5ce.png)
+
+附访问YouTube速度测试
+
+![2d6ea73cec60dd0f1581f.png](https://img.bolong.eu.org/file/2d6ea73cec60dd0f1581f.png)
+
+# 结语
+
+这就是全部教程了！！！
+
+有什么不懂的 或者 工具不会使用的可以在下方评论区留言 我会收集反馈比较多的问题单独出一期文章 或者 来QQ(2937589293)找我 (添加时请说明来意)
+
+OK结束
