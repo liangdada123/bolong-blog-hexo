@@ -1,7 +1,7 @@
 # menu菜单相关配置
 menu:
    文章:
-     隧道: /archives/ || anzhiyu-icon-box-archive
+     全部文章: /archives/ || anzhiyu-icon-box-archive
      分类: /categories/ || anzhiyu-icon-shapes
      标签: /tags/ || anzhiyu-icon-tags
 
@@ -20,12 +20,12 @@ menu:
      关于本人: /about/ || anzhiyu-icon-paper-plane
      # 闲言碎语: /essay/ || anzhiyu-icon-lightbulb
      随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
-     我的装备: /equipment/ || anzhiyu-icon-dice-d20
+     # 我的装备: /equipment/ || anzhiyu-icon-dice-d20
 
 # nav相关配置
 nav:
-  enable: true
-  travelling: true
+  enable: false
+  travelling: false
   clock: false
   menu:
     - title: 网页
@@ -112,7 +112,7 @@ docsearch:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   preload: true
   CDN:
 
@@ -795,8 +795,8 @@ aside:
     category: true
   card_author:
     enable: true
-    description: <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">产品、设计、开发</b>相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">相信你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div> # 默认为站点描述
-    name_link: /
+    description: <div style="line-height:1.38;margin:0.6rem 0;text-align:center;color:rgba(255, 255, 255, 0.8);">这里没有<b style="color:#fff">简介</b></div><div style="line-height:1.38;margin:0.6rem 0;text-align:center;color:rgba(255, 255, 255, 0.8);">看<b style="color:#fff">文章</b>比看<b style="color:#fff">简介</b>有意思</div> # 默认为站点描述
+    name_link: /about
 
   card_announcement:
     enable: false
@@ -1090,8 +1090,8 @@ console:
 # 51a统计配置
 LA:
   enable: false
-  ck:
-  LingQueMonitorID:
+  ck: 
+  LingQueMonitorID: 
 
 # 标签卖萌
 diytitle:
