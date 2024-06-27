@@ -31,7 +31,7 @@ nav:
     - title: 网页
       item:
         - name: 博客
-          link: https://blog-hexo.bolong.eu.org/
+          link: https://blog-page.bolong.eu.org/
           icon: /img/favicon.ico
     - title: 项目
       item:
@@ -1042,7 +1042,7 @@ home_top:
   timemode: date #date/updated
   title: 没有什么事
   subTitle: 是做不到的！
-  siteText: blog-hexo.bolong.eu.org
+  siteText: blog-page.bolong.eu.org
   category:
     - name: 科学上网
       path: /categories/科学上网/
