@@ -442,7 +442,7 @@ footer:
         message: 本站项目由Github托管
       - link: https://cloudflare.com/
         shields: https://img.shields.io/badge/Pages-cloudflare-orange?style=flat&logo=cloudflare
-        message: 本站项目部署由cloudflare托管
+        message: 本站项目部署由Cloudflare托管
       - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
         message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
@@ -1104,15 +1104,15 @@ diytitle:
 
 # 留言弹幕配置
 comment_barrage_config:
-  enable: false
+  enable: true
   # 同时最多显示弹幕数
   maxBarrage: 1
   # 弹幕显示间隔时间ms
   barrageTime: 4000
   # token，在控制台中获取
-  accessToken: ""
+  accessToken: "d015e4600daa450b9cfd5ac6c0e42f6d"
   # 博主邮箱md5值
-  mailMd5: ""
+  mailMd5: "0fc0ec1c469cb95237874f3ccc2f3ea6"
 
 # 左下角音乐配置项
 # https://github.com/metowolf/MetingJS
