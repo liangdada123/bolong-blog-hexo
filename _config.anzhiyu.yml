@@ -487,11 +487,11 @@ footer:
              link: https://wawo.wiki/aff.php?aff=150
            - title: VMShell
              link: https://vmshell.com/aff.php?aff=2852&pid=16
-          - title: 免费-vc-ipv6
+           - title: 免费-vc-ipv6
              link: https://free.vps.vc/
-          - title: 免费-hax-ipv6
+           - title: 免费-hax-ipv6
              link: https://hax.co.id/
-          - title: 免费-woiden-ipv6
+           - title: 免费-woiden-ipv6
              link: https://woiden.id/
        - title: 容器
          links:
