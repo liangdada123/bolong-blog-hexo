@@ -50,7 +50,7 @@
           .footer-links
             each iten, indey in item.links
               a.footer-item(title=iten.title href=url_for(iten.link))=iten.title
-      if theme.footer.list.randomFriends > 0
+      if theme.footer.list.randomFriends > 9999
         .footer-group
           .footer-title-group
             .footer-title 友链
