@@ -476,41 +476,47 @@ footer:
       #    link: /copyright
       #    icon: anzhiyu-icon-copyright-line
   list:
-    enable: false
+    enable: true
     randomFriends: 3
     project:
-       - title: 服务
+       - title: VPS
          links:
-           - title: 51la统计
-             link: https://v6.51.la/
-           - title: 十年之约
-             link: https://www.foreverblog.cn/
-           - title: 开往
-             link: https://github.com/travellings-link/travellings
-       - title: 主题
+           - title: ColoCrossing
+             link: https://cloud.colocrossing.com/aff.php?aff=690&pid=23
+           - title: Wawo
+             link: https://wawo.wiki/aff.php?aff=150
+           - title: VMShell
+             link: https://vmshell.com/aff.php?aff=2852&pid=16
+          - title: 免费-vc-ipv6
+             link: https://free.vps.vc/
+          - title: 免费-hax-ipv6
+             link: https://hax.co.id/
+          - title: 免费-woiden-ipv6
+             link: https://woiden.id/
+       - title: 容器
          links:
-           - title: 文档
-             link: /docs/
-           - title: 源码
-             link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
-           - title: 更新日志
-             link: /update/
-       - title: 导航
+           - title: Vercel
+             link: https://vercel.com/
+           - title: HuggingFace
+             link: https://huggingface.co/welcome
+           - title: replit
+             link: https://replit.com/
+       - title: 域名
          links:
-           - title: 即刻短文
-             link: /essay/
-           - title: 友链文章
-             link: /fcircle/
-           - title: 留言板
-             link: /comments/
-       - title: 协议
-         links:
-           - title: 隐私协议
-             link: /privacy/
-           - title: Cookies
-             link: /cookies/
-           - title: 版权协议
-             link: /copyright/
+           - title: 免费-cloudns
+             link: https://www.cloudns.net/
+           - title: 免费-us.kg
+             link: https://nic.us.kg/
+           - title: 免费-eu.org
+             link: http://eu.org/
+      #  - title: 协议
+      #    links:
+      #      - title: 隐私协议
+      #        link: /privacy/
+      #      - title: Cookies
+      #        link: /cookies/
+      #      - title: 版权协议
+      #        link: /copyright/
   footerBar:
     enable: true
     authorLink: /
