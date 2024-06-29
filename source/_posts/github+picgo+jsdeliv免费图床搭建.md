@@ -5,8 +5,8 @@ updated: 2024-06-29 00:00:00
 tags: [图床搭建]
 categories: 开发笔记
 description: 利用github + picgo + jsdeliv搭建免费图床
-top_img: https://img.090227.xyz/file/57b81d8fc9d8d534cabef.jpg
-cover: https://img.090227.xyz/file/57b81d8fc9d8d534cabef.jpg
+top_img: https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/6%E6%9C%8829%E6%97%A5.png
+cover: https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/6%E6%9C%8829%E6%97%A5.png
 main_color: "#F6F2F9"
 ---
 
