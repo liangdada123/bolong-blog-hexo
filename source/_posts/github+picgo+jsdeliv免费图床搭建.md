@@ -128,7 +128,7 @@ https://cdn.jsdelivr.net/gh/[github用户名]/[仓库名称]@main
 
 ![image-20240629134139214](https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/image-20240629134139214.png)
 
-上传完成之后的图片会自动添加到 **剪贴板 **内 直接在 **文体处粘贴** 即可使用！！！
+上传完成之后的图片会自动添加到 **剪贴板**内 直接在 **文体处粘贴** 即可使用！！！
 
 # 结语
 
