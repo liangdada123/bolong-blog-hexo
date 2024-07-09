@@ -5,8 +5,8 @@ updated: 2024-06-29 00:00:00
 tags: [图床搭建]
 categories: 开发笔记
 description: 利用github + picgo + jsdeliv搭建免费图床
-top_img: https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/6%E6%9C%8829%E6%97%A5.png
-cover: https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/6%E6%9C%8829%E6%97%A5.png
+top_img: https://gitee.com/laoershen/blog-img-1/raw/main/6%E6%9C%8829%E6%97%A5.png
+cover: https://gitee.com/laoershen/blog-img-1/raw/main/6%E6%9C%8829%E6%97%A5.png
 main_color: "#F6F2F9"
 ---
 
@@ -44,47 +44,47 @@ https://cdn.jsdelivr.net/gh/[github用户名]/[仓库名称]@main
 
 登录自己的`github`账号 点击 **new** 创建一个新的仓库
 
-![image-20240629112526799](https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/image-20240629112526799.png)
+![image-20240629112526799](https://gitee.com/laoershen/blog-img-1/raw/main/image-20240629112526799.png)
 
 跳入创建页配置仓库信息
 
-![image-20240629113320569](https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/image-20240629113320569.png)
+![image-20240629113320569](https://gitee.com/laoershen/blog-img-1/raw/main/image-20240629113320569.png)
 
 ### 2.配置并获取GitHub的token值
 
 点击`右上角头像`找到 **Settings** 选项 点击进入
 
-![image-20240629114025312](https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/image-20240629114025312.png)
+![image-20240629114025312](https://gitee.com/laoershen/blog-img-1/raw/main/image-20240629114025312.png)
 
-![image-20240629114156537](https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/image-20240629114156537.png)
+![image-20240629114156537](https://gitee.com/laoershen/blog-img-1/raw/main/image-20240629114156537.png)
 
 进入`Settings`页面 下拉找到 **Developer Settings** 选项 点击进入
 
-![image-20240629120847752](https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/image-20240629120847752.png)
+![image-20240629120847752](https://gitee.com/laoershen/blog-img-1/raw/main/image-20240629120847752.png)
 
 进入`Developer Settings`页面 下拉 **Personal access tokens** 选项 点击 **Tokens (classic)** 选项
 
-![image-20240629121356711](https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/image-20240629121356711.png)
+![image-20240629121356711](https://gitee.com/laoershen/blog-img-1/raw/main/image-20240629121356711.png)
 
 点击右侧 **Generate new token** 下拉选项 选择第二项 **Generate new token (classic)** 进入创建token页面
 
-![image-20240629122000597](https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/image-20240629122000597.png)
+![image-20240629122000597](https://gitee.com/laoershen/blog-img-1/raw/main/image-20240629122000597.png)
 
 进入到创建token页面 配置以下选项 配置完毕后往下拉点击创建 **Generate new token** 按钮
 
-![image-20240629123015016](https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/image-20240629123015016.png)
+![image-20240629123015016](https://gitee.com/laoershen/blog-img-1/raw/main/image-20240629123015016.png)
 
-![image-20240629123239212](https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/image-20240629123239212.png)
+![image-20240629123239212](https://gitee.com/laoershen/blog-img-1/raw/main/image-20240629123239212.png)
 
 创建完成之后会出现token值 这个 **token** 值`只会出现这一次`一定要 {% span red, 保存%} 下来
 
-![image-20240629123741177](https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/image-20240629123741177.png)
+![image-20240629123741177](https://gitee.com/laoershen/blog-img-1/raw/main/image-20240629123741177.png)
 
 ### 3.在PicGo中添加GitHub配置
 
 安装运行PicGo可以先先到设置中把这个勾选掉（当然这个不是必须的哈 只是不会让自己看到这么多的选项而已🐶）
 
-![image-20240629124844794](https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/image-20240629124844794.png)
+![image-20240629124844794](https://gitee.com/laoershen/blog-img-1/raw/main/image-20240629124844794.png)
 
 
 
@@ -92,15 +92,15 @@ https://cdn.jsdelivr.net/gh/[github用户名]/[仓库名称]@main
 
 选择`图床设置`下拉菜单 选择 **GitHub** 选项
 
-![image-20240629125616170](https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/image-20240629125616170.png)
+![image-20240629125616170](https://gitee.com/laoershen/blog-img-1/raw/main/image-20240629125616170.png)
 
 进入到 **GitHub** 配置页 点击`添加新配置`
 
-![image-20240629125900581](https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/image-20240629125900581.png)
+![image-20240629125900581](https://gitee.com/laoershen/blog-img-1/raw/main/image-20240629125900581.png)
 
 根据下图配置 配置完成之后就可以点击 **确定** 按钮进行添加了
 
-![image-20240629131701041](https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/image-20240629131701041.png)
+![image-20240629131701041](https://gitee.com/laoershen/blog-img-1/raw/main/image-20240629131701041.png)
 
 各配置项解释
 
@@ -122,11 +122,11 @@ https://cdn.jsdelivr.net/gh/[github用户名]/[仓库名称]@main
 
 选择 **上传区** 右侧 **下拉选项** 找到 **GitHub** 选择 **你创建的图床配置** 
 
-![image-20240629133756572](https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/image-20240629133756572.png)
+![image-20240629133756572](https://gitee.com/laoershen/blog-img-1/raw/main/image-20240629133756572.png)
 
 选择完之后就可在上传处上传你的图片了
 
-![image-20240629134139214](https://cdn.jsdelivr.net/gh/kayee0212/blog-img-1@main/image-20240629134139214.png)
+![image-20240629134139214](https://gitee.com/laoershen/blog-img-1/raw/main/image-20240629134139214.png)
 
 上传完成之后的图片会自动添加到 **剪贴板**内 直接在 **文体处粘贴** 即可使用！！！
 
